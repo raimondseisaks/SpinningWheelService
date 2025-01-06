@@ -39,7 +39,7 @@ h1 {
 }
 
 #mainview {
-    background-image: url("../public/Assets/back2.jpeg");
+    background-image: url("../public/Assets/backGradient2.jpeg");
     height: 100vh;
     background-position: 5% 75%;
     background-repeat: no-repeat;

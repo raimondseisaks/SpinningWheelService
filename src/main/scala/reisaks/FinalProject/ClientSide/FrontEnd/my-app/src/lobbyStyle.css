@@ -43,7 +43,7 @@
 .gameRules {
     display: block;
     margin-bottom: 20px;
-    background-image: url("../public/Assets/back2.jpeg");
+    background-image: url("../public/Assets/backGradient2.jpeg");
     height: 23vh;
     color: white;
     z-index: 1;
@@ -118,7 +118,7 @@
     display: block;
     padding: .4em .4em .4em .8em;
     margin: .5em 0 .5em 2.5em;
-    background-image: url("../public/Assets/back2.jpeg");
+    background-image: url("../public/Assets/backGradient2.jpeg");
     background-position: 30% 5%;
     text-decoration: none;
     transition: all .3s ease-out;
@@ -138,7 +138,7 @@
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background-image: url("../public/Assets/back2.jpeg");
+    background-image: url("../public/Assets/backGradient2.jpeg");
     background-position: 0 5%;
     height: 2em;
     width: 2em;
@@ -186,7 +186,7 @@
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 5% 60%;
 }
 
@@ -195,7 +195,7 @@
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 5% 60%;
 }
 

@@ -1,5 +1,5 @@
 .footer {
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     height: 15vh;
     color: white;
     display: flex;
@@ -143,7 +143,7 @@ body{
     height: 40px;
     line-height: 40px;
     font-weight: bold;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 75% 75%;
     padding: 0 0 0 10px;
     border-radius: 10px;
@@ -180,7 +180,7 @@ body{
     font-weight: bold;
     height: 40px;
     line-height: 40px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 75% 75%;
     padding: 0 0 0 10px;
     border-radius: 10px;
@@ -194,7 +194,7 @@ body{
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 5% 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -214,7 +214,7 @@ body{
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 15% 45%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -224,7 +224,7 @@ body{
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 10% 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -234,7 +234,7 @@ body{
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 5% 60%;
 }
 
@@ -243,7 +243,7 @@ body{
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url("../../Assets/back2.jpeg");
+    background-image: url("../../Assets/backGradient.jpeg");
     background-position: 10% 25%;
 }
 
