@@ -1,0 +1,92 @@
+.loginContainers {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loginImage {
+    background-image: url("../public/Assets/back2.jpeg");
+    background-position: 5% 75%;
+}
+
+.register-control {
+    margin-top: 15px;
+    font-size: 16px;
+    height: 60px;
+    width: 400px;
+}
+
+#login {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 30px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+#login:hover {
+    transform: scale(1.05);
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin: 0;
+}
+
+.signup-text {
+    text-align: center; /* Centers the text */
+    font-size: 14px;    /* Smaller font size for supporting text */
+    color: #666;        /* Subtle gray color for text */
+    margin-top: 15px;   /* Spacing from other elements */
+}
+
+/* Style for the link */
+.signup-link {
+    color: red;          /* Bootstrap primary color */
+    text-decoration: none;   /* Removes underline */
+    font-weight: bold;       /* Bold text for emphasis */
+}
+
+.signup-link:hover {
+    color: darkred;          /* Darker blue on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.login-logo {
+    width: 75%;
+}
+
+.login-logo:hover {
+    animation: spin 3s ease-in-out;
+}

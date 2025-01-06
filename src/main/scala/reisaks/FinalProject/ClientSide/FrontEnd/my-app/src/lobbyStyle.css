@@ -1,0 +1,205 @@
+.allTables {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.tableImg {
+    border-radius: 7.5%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableImg:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.gameRules {
+    display: block;
+    margin-bottom: 20px;
+    background-image: url("../public/Assets/back2.jpeg");
+    height: 23vh;
+    color: white;
+    z-index: 1;
+}
+
+#rulesHeader {
+    margin-left: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#rulesText {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.availability {
+    padding-left: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#view-profile {
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+.availability-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.availability-container-1 {
+    width: 50%;
+    margin-left: 20px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.availability-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.availability-logo:hover {
+    animation: spin 3s ease-in-out;
+}
+
+#show-button {
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.table-availability {
+    font-weight: bold;
+    color: white;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background-image: url("../public/Assets/back2.jpeg");
+    background-position: 30% 5%;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.table-availability:hover{
+    background-position: 50% 80%;
+    width: 70%;
+}
+
+.table-availability:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background-image: url("../public/Assets/back2.jpeg");
+    background-position: 0 5%;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.table-availability:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.table-availability:hover:after{
+    left: -.5em;
+    border-left-color: red;
+}
+
+#table-list {
+    margin-top: 20px;
+    padding: 0;
+    counter-reset: li;
+}
+
+.loginImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.private-table-container {
+    margin-bottom: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.create-table {
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../../Assets/back2.jpeg");
+    background-position: 5% 60%;
+}
+
+.join-private-table {
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../../Assets/back2.jpeg");
+    background-position: 5% 60%;
+}
+
+.table-input {
+    margin-bottom: 20px;
+    width: 75%;
+}

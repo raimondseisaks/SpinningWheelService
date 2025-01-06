@@ -1,0 +1,52 @@
+{
+    "tableName" : "Table-3",
+    "roundId" : "5c9ae9b1-10ab-42b8-bf6b-ec7237e2a78f",
+    "state" : "BetsStartState"
+}
+{
+    "tableName" : "Table-3",
+    "roundId" : "5c9ae9b1-10ab-42b8-bf6b-ec7237e2a78f",
+    "state" : "GameResultsState",
+    "betsList" : {
+        
+    }
+}
+{
+    "tableName" : "Table-3",
+    "roundId" : "6daea4ef-6f4c-4705-b535-6612f8079c57",
+    "state" : "BetsStartState"
+}
+{
+    "tableName" : "Table-3",
+    "roundId" : "794f51fe-4ebc-49de-96a7-438aeb07e593",
+    "state" : "BetsStartState"
+}
+{
+    "tableName" : "Table-5",
+    "roundId" : "ca4ae81f-d4d9-4b6d-976b-bca1f503be93",
+    "state" : "BetsStartState"
+}
+{
+    "tableName" : "Table-3",
+    "roundId" : "794f51fe-4ebc-49de-96a7-438aeb07e593",
+    "state" : "GameResultsState",
+    "betsList" : {
+        
+    }
+}
+{
+    "tableName" : "Table-3",
+    "roundId" : "794f51fe-4ebc-49de-96a7-438aeb07e593",
+    "state" : "GameResultsState",
+    "betsList" : {
+        
+    }
+}
+{
+    "tableName" : "Table-5",
+    "roundId" : "ca4ae81f-d4d9-4b6d-976b-bca1f503be93",
+    "state" : "GameResultsState",
+    "betsList" : {
+        
+    }
+}

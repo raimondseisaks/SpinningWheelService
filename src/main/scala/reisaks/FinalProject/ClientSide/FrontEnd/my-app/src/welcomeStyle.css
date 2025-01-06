@@ -1,0 +1,100 @@
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.welcome-logo {
+    width: 85%;
+}
+
+.welcome-form {
+    padding-right: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.welcomeImage {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.welcome-logo:hover {
+    animation: spin 3s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mainview {
+    background-image: url("../public/Assets/back2.jpeg");
+    height: 100vh;
+    background-position: 5% 75%;
+    background-repeat: no-repeat;
+}
+
+
+h2 {
+    font-weight: bold;
+}
+
+.landingText {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+}
+
+
+
+.navbar-landing {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    margin-top: 25px;
+}
+
+.menu-href {
+    color: white;
+    font-weight: bold;
+}
+
+.menu-href:hover{
+    color: darkred;
+}
+
+.welcomeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.welcomeContainer {
+    width: 50%;
+}
+
+.welcome-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    margin-top: 200px;
+}
+

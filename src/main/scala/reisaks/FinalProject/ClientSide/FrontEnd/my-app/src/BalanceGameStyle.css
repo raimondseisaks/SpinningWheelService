@@ -1,0 +1,103 @@
+.mini-game {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card-game {
+    padding: 25px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid deepskyblue;
+    border-radius: 12px;
+    background-color: #fff;
+    color: deepskyblue;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.4s ease, box-shadow 0.4s ease;
+    width: 25%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.card-game::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-game:hover {
+    transform: translateY(-10px) scale(1.1);
+    background-color: deepskyblue;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-game:hover::before {
+    opacity: 1;
+}
+
+.card-game:active {
+    transform: translateY(2px);
+}
+
+.card-game-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.card-game:hover .card-text {
+    opacity: 0.8;
+}
+
+.mini-game h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-success {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-game {
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
+    }
+
+    .mini-game h3 {
+        font-size: 22px;
+    }
+}

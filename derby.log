@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Jan 06 15:08:52 EET 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0194-3bbb-8625-00000366ff88 
+on database directory /Users/raimondseisaks/Desktop/KvalificationJob/FinalProject/SpinningWheelDb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868 
+Loaded from file:/Users/raimondseisaks/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=23+37-2369
+user.dir=/Users/raimondseisaks/Desktop/KvalificationJob/FinalProject
+os.name=Mac OS X
+os.arch=aarch64
+os.version=14.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

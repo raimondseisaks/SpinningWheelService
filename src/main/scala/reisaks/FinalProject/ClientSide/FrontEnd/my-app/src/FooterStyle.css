@@ -1,0 +1,8 @@
+.footer-container {
+    color: white;
+    font-weight: bold;
+    background-image: url("./../../Assets/back2.jpeg");
+    background-position: 40% 70%;
+    padding: 50px;
+    text-align: center;
+}

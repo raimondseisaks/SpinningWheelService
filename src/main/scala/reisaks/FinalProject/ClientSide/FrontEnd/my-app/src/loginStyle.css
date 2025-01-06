@@ -1,0 +1,89 @@
+.loginContainers {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loginImage {
+    background-image: url("../public/Assets/back2.jpeg");
+    background-position: 5% 75%;
+}
+
+.login-control {
+    margin-top: 15px;
+    font-size: 16px;
+    height: 60px;
+    width: 100%;
+}
+
+#login {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 30px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+#login:hover {
+    transform: scale(1.05);
+}
+
+#loginForm {
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.signup-text {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.signup-link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.login-logo {
+    width: 75%;
+}
+
+.login-logo:hover {
+    animation: spin 3s ease-in-out;
+}
