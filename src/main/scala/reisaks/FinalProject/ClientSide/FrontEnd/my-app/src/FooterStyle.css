@@ -1,7 +1,7 @@
 .footer-container {
     color: white;
     font-weight: bold;
-    background-image: url("../../Assets/backGradient.jpeg");
+    background-image: url("../public/Assets/backGradient.jpeg");
     background-position: 40% 70%;
     padding: 50px;
     text-align: center;

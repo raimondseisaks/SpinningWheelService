@@ -12,7 +12,7 @@ const WelcomePage = () => {
                                 <a className="navbar-brand text me-4 menu-href" href="/GameRules">How To Play</a>
                                 <a className="navbar-brand text me-4 menu-href" target="_blank" rel="noopener noreferrer" href="/Assets/documentation.pdf">
                                     Documentation</a>
-                                <a className="navbar-brand text me-4 menu-href" href="https://github.com/raimondseisaks/InternshipEvo">Link To The Repo</a>
+                                <a className="navbar-brand text me-4 menu-href" href="https://github.com/raimondseisaks/SpinningWheelService">Link To The Repo</a>
                             </div>
                         </div>
                     </nav>

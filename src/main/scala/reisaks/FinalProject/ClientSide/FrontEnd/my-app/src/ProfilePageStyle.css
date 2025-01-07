@@ -1,5 +1,5 @@
 .user-data-container {
-    background-image: url("../../Assets/backGradient.jpeg");
+    background-image: url("../public/Assets/backGradient.jpeg");
     margin-top: 50px;
     margin-bottom: 50px;
     width: 50%;
@@ -25,7 +25,7 @@
 }
 
 .change-password {
-    background-image: url("../../Assets/backGradient.jpeg");
+    background-image: url("../public/Assets/backGradient.jpeg");
     background-position: 70% 70%;
     margin-bottom: 70px;
     width: 50%;
@@ -52,7 +52,7 @@
 }
 
 .balance-container {
-    background-image: url("../../Assets/backGradient.jpeg");
+    background-image: url("../public/Assets/backGradient.jpeg");
     margin-bottom: 50px;
     width: 50%;
     border-radius: 7.5px;
@@ -76,7 +76,7 @@
 }
 
 .support-container {
-    background-image: url("../../Assets/backGradient.jpeg");
+    background-image: url("../public/Assets/backGradient.jpeg");
     margin-bottom: 50px;
     width: 50%;
     border-radius: 7.5px;
